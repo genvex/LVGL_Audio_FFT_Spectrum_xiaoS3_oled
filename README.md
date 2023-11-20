@@ -1,5 +1,12 @@
 # LVGL_Audio_FFT_Spectrum_xiaoS3_oled
 
+Please note that you need to download  LovyanGFX&lvgl libraries into the "lib" folder.
+
+LovyanGFX  https://github.com/lovyan03/LovyanGFX [LovyanGFX](https://github.com/lovyan03/LovyanGFX )
+
+Lvgl https://github.com/lvgl/lvgl
+[Lvgl](https://github.com/lvgl/lvgl )
+
 
 The project aims to achieve real-time visualization of FFT audio data using the OLED display on the Xiao expansion board, driven by the LVGL library. Key components include data visualization on the OLED screen using the LVGL library, high-speed acquisition and preprocessing of audio data on the xiaoS3_senses, as well as synchronous FFT transformation calculations. The project utilizes the I2S microphone component on the xiaoS3_sense development board and the OLED on the Xiao expansion board to achieve the visualization of audio data. It provides an in-depth understanding of the technical details of audio data processing and visualization, and offers reference and application value for real-time monitoring and presentation of audio and music data.
 
@@ -176,11 +183,9 @@ static void spectrum_draw_event_cb(lv_event_t *e) {
 
 ### Summary:
 
-The xiao_expansion_board's display showcases music information processed through FFT, providing instant feedback on the sound captured by the microphone. It's like a miniature musical fountain, where the kinetic energy of the notes springs up from the horizontal plane, creating a spectacular scene of beautiful splashing water. Each frequency component is akin to splashing water, revealing the colorful details and textures of the music, from the stable and mellow low frequencies to the lively and agile high frequencies. Each note exhibits unique tension and resilience.
+The xiao_expansion_board's display music information processed through FFT, providing instant feedback on the sound captured by the microphone. It's like a miniature musical fountain, where the kinetic energy of the notes springs up from the horizontal plane, creating a spectacular scene of beautiful splashing water. Each frequency component is akin to splashing water, revealing the colorful details and textures of the music, from the stable and mellow low frequencies to the lively and agile high frequencies. Each note exhibits unique tension and resilience.
 
 This effectively demonstrates the charm and magic of FFT in analyzing music. This approach seemingly allows one to perceive the soul of the music through the spectral data, creating an enchanting experience.
-
-
 
 
 
